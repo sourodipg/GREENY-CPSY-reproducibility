@@ -1,0 +1,9 @@
+*.png binary
+*.pdf binary
+*.csv text
+*.md text
+*.tex text
+*.cpp text
+*.hpp text
+*.py text
+*.sh text eol=lf

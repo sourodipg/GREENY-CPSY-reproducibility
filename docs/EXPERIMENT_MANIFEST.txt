@@ -1,0 +1,10 @@
+GREENY 2x2 dyad x mixing extension
+Date: 2026-08-29
+Parent tag: GREENY-FROZEN-BASELINE-v1-2026-08-29
+Compiler: g++ C++17, -O3 -Wall -Wextra -Wpedantic -Werror -fopenmp
+Default scientific run: N=4000, steps=12000, seeds=12 (fast) or 56 (full), families=1000, metric_strength=1.0
+Interaction cells: random/directed, random/dyadic, metric/directed, metric/dyadic
+The dyadic comparison uses the exact same deterministic pair ledger within each mixing level for the two interaction modes.
+Social metric z is generated independently from attachment and is fixed within a seed/run.
+Random-mixing pair ledger uses a deterministic Fisher-Yates perfect matching per timestep.
+Metric mixing uses deterministic circular-adjacent matching after random phase; metric_strength in [0,1] is the probability of metric-local pairing at each timestep.

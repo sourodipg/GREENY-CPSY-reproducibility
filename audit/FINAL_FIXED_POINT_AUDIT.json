@@ -1,0 +1,29 @@
+{
+  "text_words": 7683,
+  "header_words": 102,
+  "caption_words": 268,
+  "abstract_words": 230,
+  "displays": 8,
+  "heading_levels": {
+    "1": 6,
+    "2": 18,
+    "3": 0,
+    "4": 0
+  },
+  "frozen_count": 0,
+  "placeholder_hits": [],
+  "refs_complete": true,
+  "interaction_rows": 560,
+  "finite_outputs": true,
+  "ledger_ok": true,
+  "contrast_ok": true,
+  "branchn_ok": true,
+  "calculated_contrasts": {
+    "metric_dswap_d_rA": 0.005657344642857137,
+    "metric_yablate_y_rA": -0.00808479821428572,
+    "metric_yhalf_d_rA": -0.04554384107142857,
+    "random_dswap_d_rA": -0.0031122857142857085,
+    "random_yablate_y_rA": -0.007655230357142856,
+    "random_yhalf_d_rA": -0.037382649999999996
+  }
+}

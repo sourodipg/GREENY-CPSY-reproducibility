@@ -1,0 +1,142 @@
+[
+  {
+    "claim":"random directed rA_mean",
+    "reported":0.358031,
+    "reconstructed":0.358031,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"random dyadic rA_mean",
+    "reported":0.289332,
+    "reconstructed":0.289332,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"random directed rV_mean",
+    "reported":0.258118,
+    "reconstructed":0.258118,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"random dyadic rV_mean",
+    "reported":0.211004,
+    "reconstructed":0.211004,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"metric directed rA_mean",
+    "reported":0.354982,
+    "reconstructed":0.354982,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"metric dyadic rA_mean",
+    "reported":0.289762,
+    "reconstructed":0.289762,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"metric directed rV_mean",
+    "reported":0.25381,
+    "reconstructed":0.25381,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"metric dyadic rV_mean",
+    "reported":0.210857,
+    "reconstructed":0.210857,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"R-D rA",
+    "reported":0.358031,
+    "reconstructed":0.358031,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"R-Y rA",
+    "reported":0.289332,
+    "reconstructed":0.289332,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"M-D rA",
+    "reported":0.354982,
+    "reconstructed":0.354982,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"M-Y rA",
+    "reported":0.289762,
+    "reconstructed":0.289762,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"R-D rV",
+    "reported":0.258118,
+    "reconstructed":0.258118,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"R-Y rV",
+    "reported":0.211004,
+    "reconstructed":0.211004,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"M-D rV",
+    "reported":0.25381,
+    "reconstructed":0.25381,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"M-Y rV",
+    "reported":0.210857,
+    "reconstructed":0.210857,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"2x2 rA interaction",
+    "reported":0.00347858,
+    "reconstructed":0.0034786554,
+    "abs_residual":0.0000000754,
+    "status":"PASS"
+  },
+  {
+    "claim":"2x2 rV interaction",
+    "reported":0.00416133,
+    "reconstructed":0.0041612589,
+    "abs_residual":0.0000000711,
+    "status":"PASS"
+  },
+  {
+    "claim":"random immediate repeat benchmark",
+    "reported":0.0002500625,
+    "reconstructed":0.0002500625,
+    "abs_residual":0.0,
+    "status":"PASS"
+  },
+  {
+    "claim":"random measured repeat",
+    "reported":0.000250311,
+    "reconstructed":0.000250311,
+    "abs_residual":0.0,
+    "status":"PASS"
+  }
+]

@@ -1,0 +1,33 @@
+# Build products
+bin/
+build/
+*.o
+*.obj
+*.out
+*.exe
+*.log
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Local reproduction outputs; released results live under data/
+results/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments
+.venv/
+venv/
+.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

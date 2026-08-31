@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "GREENY: Reproducible Computational-Model Interrogation"
+message: "Please cite the associated manuscript and the archived release used for the analysis."
+type: software
+authors:
+  - family-names: Ghoshdastidar
+    given-names: Sourodip
+    affiliation: School of Computer Science, University College Dublin
+repository-code: "https://github.com/sourodipg/GREENY-CPSY-reproducibility"
+url: "https://github.com/sourodipg/GREENY-CPSY-reproducibility"
+license: MIT
+date-released: 2026-08-31
+version: "1.0.0"
+keywords:
+  - computational psychiatry
+  - generative modelling
+  - model checking
+  - reproducibility
+  - dyadic interaction
+  - temporal networks

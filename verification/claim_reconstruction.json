@@ -1,0 +1,14 @@
+{
+  "first_person_terms": [],
+  "max_arithmetic_residual": 4.875000000070795e-07,
+  "source_checks": {
+    "common_ledger": true,
+    "correct_interaction": true,
+    "clock_overrides": true,
+    "metric_range_guard": true
+  },
+  "repeat_benchmark": 0.00025006251562890725,
+  "repeat_measured": 0.000250311,
+  "repeat_reported": 0.000250311,
+  "repeat_residual": 0.0
+}

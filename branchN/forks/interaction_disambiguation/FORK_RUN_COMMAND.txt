@@ -1,0 +1,5 @@
+Default full production run from the package root:
+bash branchN/forks/interaction_disambiguation/scripts/run_interaction_fork.sh 2>&1 | tee branchN/forks/interaction_disambiguation/results/FULL_RUN_CAPTURE.log
+
+Optional explicit settings on a 32-core Ice Lake server:
+SEEDS=56 THREADS=32 FAMILIES=1000 STEPS=12000 N=4000 MIX=1.0 OFFSET=0 bash branchN/forks/interaction_disambiguation/scripts/run_interaction_fork.sh 2>&1 | tee branchN/forks/interaction_disambiguation/results/FULL_RUN_CAPTURE.log

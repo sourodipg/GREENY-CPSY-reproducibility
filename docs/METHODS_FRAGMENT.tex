@@ -1,0 +1,11 @@
+% Insertable methods fragment for the extension paper.
+\subsection{Reciprocal dyadic extension}
+The parent GREENY process samples an incoming social signal independently for each participant. We constructed a fork in which the primitive social event is an unordered pair $\{i,j\}$. For every event both participant equations are evaluated from the same pre-event state and then committed simultaneously. For participant $i$,
+\begin{equation}
+S_{i\leftarrow j}=\frac{w_TT_t+\kappa_i(w_FF_i+w_Ox_j)}{w_T+\kappa_i(w_F+w_O)},
+\end{equation}
+and analogously for participant $j$. The resulting pair map is equivariant under simultaneous exchange of participant labels and all participant-local parameters. Symmetry therefore denotes reciprocal participation in the event, not equality of the two responses.
+
+The primary counterfactual uses a common encounter ledger generated independently of model state. Each timestep is a random perfect matching, so every participant appears exactly once and every unordered pair is an explicit encounter. The same ledger, population initialization and Poisson forcing realization are replayed in the matched-bidirectional-sequential and matched-symmetric-simultaneous conditions. The sequential condition updates one participant and then the other; the second response sees the first participant's new belief. The simultaneous condition computes both responses from the common pre-event state and commits them together. This isolates the within-encounter simultaneity/reciprocity mechanism without changing encounter opportunity counts.
+
+We report aggregate attachment--severity outcomes and encounter-level network diagnostics. The latter include one-, five- and twenty-encounter partner recurrence, mutual elevation at contact, pre- and post-event pair-state concordance, same-family exposure, and the directed-parent graph's self-loop, reciprocity and unique-target rates. We do not infer communities from the exogenous encounter graph. This choice follows the Social Relations Model distinction among actor, partner and relationship effects \citep{Cook1984,An2023} and dynamic network work that treats reciprocity and other structural effects as distinct network processes \citep{Snijders2017}. Common random-number pairing is used to reduce variance in stochastic-design comparisons \citep{YangNelson1991}.

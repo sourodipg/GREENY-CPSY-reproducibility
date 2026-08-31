@@ -1,0 +1,161 @@
+{
+  "M_contrast_rA_spread": 0.033551,
+  "M_contrast_rV_spread": 0.02449800000000002,
+  "configuration": {
+    "families": 20,
+    "n": 80,
+    "offsets": [
+      0,
+      1,
+      2
+    ],
+    "seeds": 2,
+    "shock": 500.0,
+    "steps": 400,
+    "threads": 2,
+    "window": 0.06
+  },
+  "interpretation": "Changing only the exogenous coordinate realization preserves the random cells and the strong recurrent-contact regime, but changes the metric-local D-to-Y contrast. Therefore the effect is not proven to be a function of recurrence alone; local-neighbour realization is a live sensitivity dimension.",
+  "metric_contrasts": [
+    {
+      "M_DY_minus_D_rA": -0.05092000000000002,
+      "M_DY_minus_D_rV": -0.06457200000000002,
+      "M_repeat1": 0.5225,
+      "M_repeat5_or20_not_recomputed_here": null,
+      "offset": 0
+    },
+    {
+      "M_DY_minus_D_rA": -0.06799300000000003,
+      "M_DY_minus_D_rV": -0.086901,
+      "M_repeat1": 0.5225,
+      "M_repeat5_or20_not_recomputed_here": null,
+      "offset": 1
+    },
+    {
+      "M_DY_minus_D_rA": -0.08447100000000002,
+      "M_DY_minus_D_rV": -0.08907000000000004,
+      "M_repeat1": 0.5225,
+      "M_repeat5_or20_not_recomputed_here": null,
+      "offset": 2
+    }
+  ],
+  "metric_recurrence_preserved_across_offsets": true,
+  "random_contact_invariant_across_offsets": true,
+  "runs": {
+    "0": {
+      "M-D": {
+        "mutual_pre": 0.0603438,
+        "pair_q_post": 0.590747,
+        "pair_x_post": 0.961681,
+        "rA": 0.346872,
+        "rV": 0.324475,
+        "rate": 0.0,
+        "repeat1": 0.504875
+      },
+      "M-Y": {
+        "mutual_pre": 0.03275,
+        "pair_q_post": 0.757328,
+        "pair_x_post": 0.978339,
+        "rA": 0.295952,
+        "rV": 0.259903,
+        "rate": 0.0,
+        "repeat1": 0.5225
+      },
+      "R-D": {
+        "mutual_pre": 0.0713125,
+        "pair_q_post": 0.665504,
+        "pair_x_post": 0.964452,
+        "rA": 0.348881,
+        "rV": 0.33996,
+        "rate": 0.0,
+        "repeat1": 0.0124688
+      },
+      "R-Y": {
+        "mutual_pre": 0.0364688,
+        "pair_q_post": 0.778728,
+        "pair_x_post": 0.978848,
+        "rA": 0.297332,
+        "rV": 0.261402,
+        "rate": 0.0,
+        "repeat1": 0.0122813
+      }
+    },
+    "1": {
+      "M-D": {
+        "mutual_pre": 0.08125,
+        "pair_q_post": 0.706739,
+        "pair_x_post": 0.961482,
+        "rA": 0.360862,
+        "rV": 0.344349,
+        "rate": 0.0,
+        "repeat1": 0.503812
+      },
+      "M-Y": {
+        "mutual_pre": 0.0389063,
+        "pair_q_post": 0.790104,
+        "pair_x_post": 0.979339,
+        "rA": 0.292869,
+        "rV": 0.257448,
+        "rate": 0.0,
+        "repeat1": 0.5225
+      },
+      "R-D": {
+        "mutual_pre": 0.0713125,
+        "pair_q_post": 0.665504,
+        "pair_x_post": 0.964452,
+        "rA": 0.348881,
+        "rV": 0.33996,
+        "rate": 0.0,
+        "repeat1": 0.0124688
+      },
+      "R-Y": {
+        "mutual_pre": 0.0364688,
+        "pair_q_post": 0.778728,
+        "pair_x_post": 0.978848,
+        "rA": 0.297332,
+        "rV": 0.261402,
+        "rate": 0.0,
+        "repeat1": 0.0122813
+      }
+    },
+    "2": {
+      "M-D": {
+        "mutual_pre": 0.0667187,
+        "pair_q_post": 0.610893,
+        "pair_x_post": 0.966217,
+        "rA": 0.385836,
+        "rV": 0.352214,
+        "rate": 0.0,
+        "repeat1": 0.503219
+      },
+      "M-Y": {
+        "mutual_pre": 0.0342187,
+        "pair_q_post": 0.771932,
+        "pair_x_post": 0.981486,
+        "rA": 0.301365,
+        "rV": 0.263144,
+        "rate": 0.0,
+        "repeat1": 0.5225
+      },
+      "R-D": {
+        "mutual_pre": 0.0713125,
+        "pair_q_post": 0.665504,
+        "pair_x_post": 0.964452,
+        "rA": 0.348881,
+        "rV": 0.33996,
+        "rate": 0.0,
+        "repeat1": 0.0124688
+      },
+      "R-Y": {
+        "mutual_pre": 0.0364688,
+        "pair_q_post": 0.778728,
+        "pair_x_post": 0.978848,
+        "rA": 0.297332,
+        "rV": 0.261402,
+        "rate": 0.0,
+        "repeat1": 0.0122813
+      }
+    }
+  },
+  "status": "SENSITIVITY_DETECTED"
+}

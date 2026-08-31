@@ -1,0 +1,13 @@
+graph_metric,corr_with_M_rA_contrast,corr_with_M_rV_contrast
+degree_mean_mean,nan,nan
+strength_mean_mean,nan,nan
+edge_weight_mean_mean,nan,nan
+edge_weight_cv_mean,nan,nan
+A_assort_unweighted_mean,-0.30385879019260326,-0.2735378243916385
+V_assort_unweighted_mean,0.2618774675233016,0.25905539518594256
+A_assort_weighted_mean,-0.30417089728928803,-0.27342212294626694
+V_assort_weighted_mean,0.2575075518237693,0.2544897489174545
+mean_abs_dA_mean,0.25538921820507016,0.19848430568324796
+mean_abs_dV_mean,-0.2482303134215199,-0.23800487223090497
+weighted_abs_dA_mean,0.2543165481920737,0.1968148958900666
+weighted_abs_dV_mean,-0.2429149141039653,-0.23237773293552283

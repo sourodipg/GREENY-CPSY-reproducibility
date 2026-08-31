@@ -1,0 +1,6 @@
+interaction-disambiguation
+status=ADDITIVE_FORK
+parent_code_untouched=true
+conditions=D,Y,D_SWAP,Y_ABLATE,Y_HALFALPHA
+contact_regimes=random,metric
+replicates=56 default

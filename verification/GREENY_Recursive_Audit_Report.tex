@@ -1,0 +1,77 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs,tabularx,amsmath,amssymb,hyperref,microtype}
+\setlength{\emergencystretch}{3em}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\title{GREENY Recursive Reproducibility and Residual Audit}
+\author{Audit release corresponding to 31 August 2026 package}
+\date{}
+\begin{document}\maketitle
+
+\section{Purpose}
+The audit separates three questions. First, can the scientific claims be reconstructed from retained numerical inputs? Second, does the executable satisfy the implementation contract used by the claims? Third, which conclusions remain invariant after targeted perturbations, and which remain explicitly conditional?
+
+\section{Reader-instantiation audit}
+The manuscript now introduces the simulated objects before relying on their symbols. Each agent is created with fixed $(A,V,IQ)$ and a family assignment. These quantities construct vulnerability, initial threshold, update rate, and social responsiveness. The evolving state contains expressed belief, accumulated strain, current threshold, episode state, and dose. An encounter is an unordered pair followed by calculation and state commitment.
+
+The two-sided simultaneous regime computes both responses from the common pre-encounter state. The sequential regime commits the first response before calculating the second, so the phrase ``sees the new state'' has an exact operational meaning. The distinction is therefore a state-transition rule rather than an uncontrolled concurrency race.
+
+\section{Recursive provenance}
+Published ECR-S moments are transformed explicitly to the unit interval. The WAIS-IV mean and standard deviation are used as a standard-score convention. The exact anxiety--avoidance correlation, relationship weights, shock interval, observation window, and other frozen quantities are separately labelled as inherited or design values. Inheritance is treated as provenance only; it does not terminate the audit chain.
+
+\section{Arithmetic reconstruction}
+The authoritative 56-seed network matrix contains 224 seed-condition observations. The headline cell means are reproduced directly from that matrix:
+\begin{center}
+\begin{tabular}{lrrrr}
+\toprule
+Condition & $r_A$ & $r_V$ & rate & repeat$_1$\\
+\midrule
+R-D & 0.358031 & 0.258118 & 0.284835 & 0.000250311\\
+R-Y & 0.289332 & 0.211004 & 0.290489 & 0.000250472\\
+M-D & 0.354982 & 0.253810 & 0.284932 & 0.499717\\
+M-Y & 0.289762 & 0.210857 & 0.290188 & 0.500124\\
+\bottomrule
+\end{tabular}
+\end{center}
+The matched update contrasts are $-0.068699$ and $-0.065220$ for $r_A$ and $-0.047114$ and $-0.042953$ for $r_V$ under random and recurrent-local contact, respectively. The topology-by-interaction interactions reconstructed from the seed-level matrix are 0.003479 for $r_A$ and 0.004161 for $r_V$.
+
+The maximum residual among the checked headline quantities is $4.875\times10^{-7}$. The residual arises only from displayed rounding versus full-precision reconstruction.
+
+\section{Implementation correction}
+The final extension source computes the 2$\times$2 interaction as
+\[
+I_Z=(Z_{M,Y}-Z_{M,D})-(Z_{R,Y}-Z_{R,D}).
+\]
+An earlier writer in the extension source labelled a single metric-dyadic cell difference under the interaction name. The final source removes that ambiguity. The archived 56-seed interaction is independently reconstructed from the retained seed-level matrix rather than trusted solely because of the archived label.
+
+\section{Clock robustness}
+The default clock is 500 steps between external shocks and a 30-step observation window. The following four-seed checks were executed at $N=4000$ and 12,000 steps.
+\begin{center}
+\begin{tabular}{lrrr}
+\toprule
+Audit & Shock interval & Window steps & $\Delta r_A$ random / local\\
+\midrule
+Window 15 & 500 & 15 & -0.126792 / -0.145511\\
+Window 60 & 500 & 60 & -0.127353 / -0.143687\\
+Clock 250 & 250 & 30 & -0.095953 / -0.092523\\
+Clock 1000 & 1000 & 30 & -0.012631 / +0.002794\\
+\bottomrule
+\end{tabular}
+\end{center}
+The first three small checks preserve the negative direction. The 1000-step shock-clock check does not. The clock is therefore not treated as an invariant; the main conclusion remains conditional on the released 500-step convention.
+
+\section{Software verification}
+Completed automated controls include deterministic matching checks, common-ledger equality, metric/attachment independence sanity checks, finite-output guards, thread reproducibility, and sanitizer smoke testing. A manuscript scan also verifies that first-person narration is absent from the scientific prose.
+
+\section{Definitive rerun status}
+The archived 56-seed matrix is the definitive numerical basis for the paper's headline results. A fresh 56-seed execution was attempted in the present environment but did not complete within the available execution window. No fresh full-run completion is claimed. The retained matrix, however, is directly reconstructible and is included in the package together with the executable and the rerun command.
+
+\section{Rerun commands}
+\begin{verbatim}
+make verify
+make sanitizer
+THREADS=15 SEEDS=56 make full
+python3 verification/reconstruct_claims.py
+\end{verbatim}
+
+\end{document}
